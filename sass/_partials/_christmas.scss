@@ -1,0 +1,72 @@
+.cover-photo {
+    height: 300px;
+    width: 100%;
+
+    @include breakpoint(mobile) {
+        display: none;
+    }
+}
+
+#header {
+    background: url('images/banner.png') repeat-x center;
+}
+
+#nav > ul > .nav-item.current a {
+    border-color: $urn-xmas-red;
+}
+
+#listen-now {
+    background: $urn-xmas-red;
+
+    .show-container {
+        .play {
+            background-image: url('images/play-icon.svg');
+            background: $urn-xmas-red;
+        }
+
+        .send-message .message {
+            background: $urn-xmas-red;
+        }
+    }
+}
+
+#footer {
+    background: url('images/green-noise.png') repeat center;
+}
+
+.btn {
+    background: $urn-xmas-red;
+
+    &:hover,
+    &:focus {
+        background: darken($urn-xmas-red, 10%);
+        outline: none;
+    }
+
+    &:active {
+        box-shadow: inset 0 2px 3px -2px black(0.4);
+    }
+
+    &:disabled {
+        background: lighten($urn-xmas-red, 20%);
+    }
+
+    &.listen {
+        background: darken($urn-xmas-red, 20%);
+
+        &:hover {
+            background: darken($urn-xmas-red, 15%);
+        }
+    }
+}
+
+body.stream {
+    background: $urn-xmas-green;
+
+    #listen-now {
+        .show-container {
+            background: $urn-xmas-red;
+            display: block;
+        }
+    }
+}

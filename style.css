@@ -1,0 +1,68 @@
+/*
+    Theme Name: URN Material (Christmas)
+    Author: Johnathan Graydon
+    Description: A version of the standard theme tweaked for christmas
+    Template: urn-material
+    Version: 0.1
+    License: ?
+*/
+.cover-photo {
+  height: 300px;
+  width: 100%;
+}
+@media (max-width: 620px) {
+  .cover-photo {
+    display: none;
+  }
+}
+
+#header {
+  background: url("images/banner.png") repeat-x center;
+}
+
+#nav > ul > .nav-item.current a {
+  border-color: #a31c23;
+}
+
+#listen-now {
+  background: #a31c23;
+}
+#listen-now .show-container .play {
+  background-image: url("images/play-icon.svg");
+  background: #a31c23;
+}
+#listen-now .show-container .send-message .message {
+  background: #a31c23;
+}
+
+#footer {
+  background: url("images/green-noise.png") repeat center;
+}
+
+.btn {
+  background: #a31c23;
+}
+.btn:hover, .btn:focus {
+  background: #77151a;
+  outline: none;
+}
+.btn:active {
+  box-shadow: inset 0 2px 3px -2px rgba(0, 0, 0, 0.4);
+}
+.btn:disabled {
+  background: #df464e;
+}
+.btn.listen {
+  background: #4c0d10;
+}
+.btn.listen:hover {
+  background: #621115;
+}
+
+body.stream {
+  background: #209f13;
+}
+body.stream #listen-now .show-container {
+  background: #a31c23;
+  display: block;
+}

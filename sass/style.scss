@@ -1,0 +1,20 @@
+/*
+    Theme Name: URN Material (Christmas)
+    Author: Johnathan Graydon
+    Description: A version of the standard theme tweaked for christmas
+    Template: urn-material
+    Version: 0.1
+    License: ?
+*/
+
+@import 'compass';
+
+$urn-xmas-red: #a31c23;
+$urn-xmas-green: #209f13;
+$urn-xmas-orange: #f1691f;
+
+@import '../../urn-material/sass/_partials/variables',
+        '../../urn-material/sass/_partials/mixins',
+        '../../urn-material/sass/_partials/functions',
+        '../../urn-material/sass/_partials/breakpoints',
+        '_partials/christmas';
