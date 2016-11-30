@@ -21,7 +21,6 @@
     .show-container {
         .play {
             background-image: url('images/play-icon.svg');
-            background: $urn-xmas-red;
         }
 
         .send-message .message {
@@ -61,7 +60,7 @@
 }
 
 body.stream {
-    background: $urn-xmas-green;
+    background: url('images/green-noise.png') repeat center;
 
     #listen-now {
         .show-container {

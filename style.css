@@ -29,7 +29,6 @@
 }
 #listen-now .show-container .play {
   background-image: url("images/play-icon.svg");
-  background: #a31c23;
 }
 #listen-now .show-container .send-message .message {
   background: #a31c23;
@@ -60,7 +59,7 @@
 }
 
 body.stream {
-  background: #209f13;
+  background: url("images/green-noise.png") repeat center;
 }
 body.stream #listen-now .show-container {
   background: #a31c23;
