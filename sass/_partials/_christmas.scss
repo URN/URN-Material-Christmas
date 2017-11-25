@@ -1,9 +1,12 @@
 .cover-photo {
-    height: 300px;
     width: 100%;
 
     @include breakpoint(mobile) {
         display: none;
+    }
+
+    @include breakpoint(tablet) {
+        height: 180px;
     }
 }
 

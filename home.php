@@ -2,7 +2,7 @@
 
 <div class="main-content home-content">
     <div class="row cover-photos">
-        <img class="cover-photo" src="<?php echo get_stylesheet_directory_uri(); ?>/images/12days.png" alt="" />
+        <img class="cover-photo" src="<?php echo get_stylesheet_directory_uri(); ?>/images/promo.png" alt="" />
     </div>
 
     <div class="row">
