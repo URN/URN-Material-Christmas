@@ -42,8 +42,7 @@ remove_action('wp_head', '_admin_bar_bump_cb');
     <h1>University Radio Nottingham</h1>
 
     <audio controls autoplay>
-        <source src="http://posurnl.nottingham.ac.uk:8080/urn_high.mp3" type="audio/mpeg">
-        <source src="http://posurnl.nottingham.ac.uk:8080/urn_high.ogg" type="audio/ogg">
+        <source src="http://128.243.155.14:8000/live" type="audio/mpeg">
     </audio>
 
     <?php
